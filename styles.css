@@ -1,3 +1,28 @@
 body {
-  background-color: grey;
+  height: 100vh;
+  margin: 0;
+}
+
+.grad-bg {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle at 10% 100%, rgba(255, 187, 247, 1) 0%, rgba(228, 124, 212, 1) 28%, rgba(0, 196, 220, 0) 44%),
+    linear-gradient(314deg,#00C4DC 0%, #B735A1 60%, #00C4DC 100%);
+  filter: blur(11px);
+}
+
+.main-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+  height: 100vh;
+  width: 100vw;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 9vw;
+  
 }
